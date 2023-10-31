@@ -1,0 +1,119 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 19, 2023, 6:51:01 PM
+    Author     : Nguyen Nguyen Khoa
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    /*background-image: url("https://th.bing.com/th/id/R.c7fd4262857a295868e7fff8a2001e0b?rik=IfduFy8TEHYNow&pid=ImgRaw&r=0");*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container2 {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+
+}
+
+span {
+    color: #070707b0;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    color: #030303;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.input-field2 .input2 {
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: #070707;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background: #e4e3e3b5;
+    outline: none;
+}
+
+i {
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #0a0a0a;
+}
+
+::-webkit-input-placeholder {
+    color: #020202;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.submit2 {
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.415);
+    cursor: pointer;
+    transition: .3s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.submit2:hover {
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.two-col2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #020202;
+    font-size: small;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.one2 {
+    padding-left: 15px;
+    display: flex;
+}
+
+label a {
+    text-decoration: none;
+    color: #070707b9;
+}

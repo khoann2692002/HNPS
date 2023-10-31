@@ -1,0 +1,113 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 19, 2023, 8:08:35 PM
+    Author     : Nguyen Nguyen Khoa
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    /*background-image:  url("../img/wepik-export-20230827175613nBn0 (1).png");*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container1{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+
+}
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.input-field1 .input1{
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background-color: #000000;
+    opacity: 0.35;
+    outline: none;
+}
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.submit1{
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: #fff;
+    background: #02B875;
+    cursor: pointer;
+    transition: .3s ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.submit1:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.two-col1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    font-size: small;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.two1{
+    padding-left: 15px;
+    display: flex;
+
+}
+.two2{
+    padding-right: 15px;
+    display: flex;
+}
+
+label a{
+    text-decoration: none;
+    color: #fff;
+}
+
